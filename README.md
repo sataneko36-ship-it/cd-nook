@@ -140,4 +140,4 @@ tests/snapshot.sh /tmp/shots "<音乐文件夹>" PLAN="size:1920x1080 style:2 lo
 
 ## 许可证
 
-本项目代码以 [MIT 许可证](LICENSE) 发布。内置的第三方组件（VLC、Real‑ESRGAN、番剧名称索引）按各自的许可证发布；专辑封面不在 MIT 许可范围内，见上一节与 `LICENSE` 末尾。
+本项目代码以 [MIT 许可证](LICENSE) 发布。内置的第三方组件（VLC、Real‑ESRGAN、番剧名称索引）按各自的许可证发布；专辑封面不在 MIT 许可范围内，见上一节与 [NOTICE.md](NOTICE.md)。

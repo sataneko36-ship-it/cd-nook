@@ -60,4 +60,4 @@ VLC 3.0.21 (LGPL‑2.1), Real‑ESRGAN ncnn Vulkan (BSD‑3‑Clause), AnimeGard
 
 ## License
 
-The CD Nook code is released under the [MIT License](LICENSE). Bundled third‑party components (VLC, Real‑ESRGAN, the anime title index) keep their own licenses, and the album artwork in the screenshots and the bundled idle sleeve (`icon/IdleCover.jpg`) belongs to its respective owners — it is not covered by the MIT License (see the end of `LICENSE`).
+The CD Nook code is released under the [MIT License](LICENSE). Bundled third‑party components (VLC, Real‑ESRGAN, the anime title index) keep their own licenses, and the album artwork in the screenshots and the bundled idle sleeve (`icon/IdleCover.jpg`) belongs to its respective owners — it is not covered by the MIT License (see [NOTICE.md](NOTICE.md)).
