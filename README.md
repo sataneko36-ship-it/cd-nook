@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/media/banner-dark.jpg">
-  <img alt="CD Nook — 放哪张，屏幕就是哪张。" src="docs/media/banner-light.jpg">
-</picture>
+<p align="center"><img src="docs/media/main.png" width="96%" alt="CD Nook「唱片角」：绿色 CD 光盘主播放界面"></p>
 
 <h1 align="center">CD Nook</h1>
 
@@ -21,15 +18,40 @@
 
 ---
 
-买 CD 的人买的不只是音乐，还有那张封面。CD Nook 把正在播放的专辑铺满整块屏幕：漂浮在柔光里、装进透明 CD 盒、印在复古磁带上，或者画成一台点阵像素屏。番剧 CD 收藏会按作品叠成一面墙，点一下，唱片像烟花一样散开。
+## 测试版发布啦～
 
-<p align="center"><img src="docs/media/styles.gif" width="88%" alt="四种外观依次切换"></p>
+猫生里！独自！第一次做的项目——CD Nook「唱片角」现在终于发布测试版啦～
+
+如果有感兴趣的朋友，可以下载来玩玩 aa！
+
+目前先只上线了 Mac 版，Windows 版的动画界面还没打磨到自己满意，所以过段时间再移植完发布吧 ψ(｀∇´)ψ 咕咕咕咕
+
+CD Nook 其实只是想解决一件很简单的事啦：
+**买回来的 CD、收藏下来的动画原声和 BD/CD 音源，不要只是静静躺在光盘盒 / NAS / 硬盘里吃灰。**
+
+只要把 Mac 接上光驱，它可以自动识别插入的唱片、搜刮并补全专辑信息和封面，然后把整张唱片漂亮地播放起来。
+
+或者或者也可以直接指向一个装满音乐的 NAS / 文件夹，自动整理出里面的专辑，组成一整面唱片墙，在未来也会支持按照歌手来堆叠～！
+
+单纯截图其实很难表现它真正动起来的感觉，很多动画、模糊、景深、唱片展开和一些很小很小的细节，都是磨了挺久才做出来的 x
+
+目前一共做了四种播放方式：**空灵 / CD 光盘 / 复古卡带 / 像素机**，再配了 **8 种不同的色调组合**，反正至少比主流的流媒体/开源播放器好看啦嗯嗯(＞人＜;)！
+
+抱着希望每一种界面都不只是“播放器的另一个皮肤”，而是真的把视觉中心重新交还给这一张唱片本身，让它仿佛真的成为一种独特而具体的播放介质，这样来做出来的 UI～
+
+**希望它能让你找回流媒体时代被剥夺的，属于一整张专辑的体验！**
+
+当然在接下来说不定会接入流媒体平台，可以同时做一个更好看更纯粹的播放器也说不定 x
+
+毕竟是猫生里第一个自己完整做出来的项目嘛，肯定还有很多奇奇怪怪的 bug 和不成熟的地方。如果有人真的下载玩了，欢迎疯狂给我提 bug / 意见 / 吐槽，可以来 [Issues](../../issues) 留言～
+
+在此我要向对这个项目贡献最大的两个乙方致谢：感恩 Opus5.5，感恩 Opus5.5，感恩 Opus5.5；谢谢 6.1Sol，6.0Sol 和 5.6Sol。
 
 ## 特色
 
 ### 四种外观
 
-<p align="center"><img src="docs/media/styles.jpg" width="96%" alt="空灵、CD 光盘、复古卡带、像素屏"></p>
+<p align="center"><img src="docs/media/styles.png" width="96%" alt="空灵、CD 光盘、复古卡带、像素屏"></p>
 
 | 风格 | 看起来像 |
 | --- | --- |
@@ -40,11 +62,22 @@
 
 八种色调（深空灰、海雾蓝、暮光紫、暖茶棕、白粉色、玻璃浅绿、奶油白、晴空浅蓝）和三种背景（柔光纯色、封面柔焦三档、封面取色柔焦）可以和任意风格组合。`⌘1`～`⌘4` 切换风格。
 
-<p align="center"><img src="docs/media/cassette.jpg" width="49%" alt="复古卡带的三种样式"> <img src="docs/media/pixel.jpg" width="49%" alt="像素屏的八种背光"></p>
+<p align="center"><img src="docs/media/cassette.png" width="88%" alt="复古卡带播放界面"></p>
+
+<p align="center"><img src="docs/media/pixel.png" width="64%" alt="像素机：封面点阵与曲目信息两种显示状态"></p>
 
 ### 专辑墙
 
+<p align="center"><img src="docs/media/wall.png" width="96%" alt="按番剧堆叠的音乐收藏墙"></p>
+
+<p align="center"><img src="docs/media/wall-burst.jpg" width="64%" alt="收藏墙交互：堆叠、扇开与水波纹展开的连续画面"></p>
+
+<details>
+<summary>点开看收藏墙的动态演示</summary>
+
 <p align="center"><img src="docs/media/wall.gif" width="88%" alt="专辑墙：扇开、水波纹展开、点开播放、返回"></p>
+
+</details>
 
 - 扫描任意层级的文件夹，番剧 CD 按作品自动归类、叠成一摞（本机番剧别名索引 + Wikipedia / 萌娘百科核对）。
 - 鼠标移上去整摞扇开；点一下，水波纹从中心扩散，扫过的地方逐渐模糊，唱片在作品名周围散开，37 张也能一次放下。
@@ -70,6 +103,8 @@
    xattr -dr com.apple.quarantine "/Applications/CD Nook.app"
    ```
 3. 需要 macOS 26 和 Apple 芯片的 Mac。VLC 播放核心已经内置，不需要另外安装。
+
+<p align="center"><a href="../../releases"><img src="docs/media/github.png" width="56%" alt="CD Nook GitHub 获取海报：开源免费，macOS 26，Apple Silicon；点击前往 Releases"></a></p>
 
 ## 使用
 

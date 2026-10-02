@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/media/banner-en-dark.jpg">
-  <img alt="CD Nook" src="docs/media/banner-en-light.jpg">
-</picture>
+<p align="center"><img src="docs/media/main.png" width="96%" alt="CD Nook: the CD player in glass green"></p>
 
 <h1 align="center">CD Nook</h1>
 
@@ -13,13 +10,11 @@
 
 People who still buy CDs buy the artwork too. CD Nook puts the album you're playing across the entire screen — floating in soft light, inside a clear jewel case, printed on a cassette, or drawn on a dot‑matrix screen. Your anime CDs stack up by series into a wall that bursts open with a ripple.
 
-<p align="center"><img src="docs/media/styles.gif" width="88%" alt="The four styles"></p>
-
 ## Features
 
 ### Four ways to hold an album
 
-<p align="center"><img src="docs/media/styles.jpg" width="96%" alt="Ethereal, jewel case, cassette, pixel screen"></p>
+<p align="center"><img src="docs/media/styles.png" width="96%" alt="Ethereal, jewel case, cassette, pixel screen"></p>
 
 - **Ethereal** — the sleeve floats in drifting light.
 - **CD** — a clear jewel case with a silver disc that turns while it plays.
@@ -30,7 +25,16 @@ Eight tones and three backgrounds combine with any style. `⌘1`–`⌘4` switch
 
 ### The album wall
 
+<p align="center"><img src="docs/media/wall.png" width="96%" alt="Anime albums grouped by series in the album wall"></p>
+
+<p align="center"><img src="docs/media/wall-burst.jpg" width="64%" alt="Album wall interaction: stacked, fanned and expanded"></p>
+
+<details>
+<summary>Watch the album wall in motion</summary>
+
 <p align="center"><img src="docs/media/wall.gif" width="88%" alt="Album wall"></p>
+
+</details>
 
 Scan any folder tree; anime CDs are grouped by series and stacked. Hover to fan a stack, click and a ripple blurs the wall while the CDs burst out around the title (all 37 at once, if that's what you have). Pick one and it flies into the player; come back and the whole page shrinks into that CD. The wall follows the player's style and tone.
 
@@ -45,6 +49,8 @@ Scan any folder tree; anime CDs are grouped by series and stacked. Hover to fan 
 ## Install
 
 Download `CD Nook macOS 26.zip` from [Releases](../../releases) and move **CD Nook.app** to Applications. It is ad‑hoc signed, so open it the first time with right‑click → Open (or run `xattr -dr com.apple.quarantine "/Applications/CD Nook.app"`). Requires macOS 26 on Apple silicon; VLC is bundled.
+
+<p align="center"><a href="../../releases"><img src="docs/media/github.png" width="56%" alt="Get CD Nook on GitHub: open source, free, macOS 26 and Apple silicon; click for Releases"></a></p>
 
 ## Build
 
