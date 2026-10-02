@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+# build output and caches
+/build/
+*.o
+clang-cache/
+# Windows preview: compiled output and packages stay out of the repo
+windows/CDGlass.Windows/bin/
+windows/CDGlass.Windows/obj/
+windows/dist/
+windows/**/visual-parity/
