@@ -12,7 +12,7 @@
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-arm64-555">
   <img alt="Objective-C" src="https://img.shields.io/badge/Objective--C-AppKit%20%2B%20Core%20Animation-3a7bd5">
   <img alt="VLC" src="https://img.shields.io/badge/VLC-3.0.21%20bundled-ff8800">
-  <img alt="version" src="https://img.shields.io/badge/version-0.12.4-6e56cf">
+  <img alt="version" src="https://img.shields.io/badge/version-0.12.5-6e56cf">
 </p>
 
 <p align="center">
@@ -136,8 +136,8 @@ tests/snapshot.sh /tmp/shots "<音乐文件夹>" PLAN="size:1920x1080 style:2 lo
 - 番剧名称索引来自 [AnimeGarden bgmd](https://github.com/AnimeGarden/bgmd)（MIT）与 Bangumi 海报地址，见 `data/README.md`。
 - 在线封面候选来自 MusicBrainz / Cover Art Archive、Apple Music、萌娘百科与 Wikipedia 的公开接口。
 
-截图与演示视频中出现的专辑封面（《甲铁城的卡巴内利》《珈百璃的堕落》《初音未来》《雏子的笔记》等）版权归各自权利方所有，仅用于展示播放效果。
+截图、演示视频和应用内启动封面（`icon/IdleCover.jpg`）中出现的专辑封面（《甲铁城的卡巴内利》《珈百璃的堕落》《初音未来》《雏子的笔记》《在下坂本，有何贵干？》等）版权归各自权利方所有，仅用于展示播放效果。
 
 ## 许可证
 
-尚未选定。在仓库加入 `LICENSE` 文件之前，本项目代码保留所有权利；内置的第三方组件按各自的许可证发布。
+本项目代码以 [MIT 许可证](LICENSE) 发布。内置的第三方组件（VLC、Real‑ESRGAN、番剧名称索引）按各自的许可证发布；专辑封面不在 MIT 许可范围内，见上一节与 `LICENSE` 末尾。
