@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/media/main.png" width="96%" alt="CD Nook「唱片角」：绿色 CD 光盘主播放界面"></p>
+<p align="center"><img src="docs/media/main.jpg" width="96%" alt="CD Nook「唱片角」：绿色 CD 光盘主播放界面"></p>
 
 <h1 align="center">CD Nook</h1>
 
@@ -51,7 +51,7 @@ CD Nook 其实只是想解决一件很简单的事啦：
 
 ### 四种外观
 
-<p align="center"><img src="docs/media/styles.png" width="96%" alt="空灵、CD 光盘、复古卡带、像素屏"></p>
+<p align="center"><img src="docs/media/styles.jpg" width="96%" alt="空灵、CD 光盘、复古卡带、像素屏"></p>
 
 | 风格 | 看起来像 |
 | --- | --- |
@@ -62,22 +62,17 @@ CD Nook 其实只是想解决一件很简单的事啦：
 
 八种色调（深空灰、海雾蓝、暮光紫、暖茶棕、白粉色、玻璃浅绿、奶油白、晴空浅蓝）和三种背景（柔光纯色、封面柔焦三档、封面取色柔焦）可以和任意风格组合。`⌘1`～`⌘4` 切换风格。
 
-<p align="center"><img src="docs/media/cassette.png" width="88%" alt="复古卡带播放界面"></p>
+<p align="center"><img src="docs/media/cassette.jpg" width="88%" alt="复古卡带播放界面"></p>
 
-<p align="center"><img src="docs/media/pixel.png" width="64%" alt="像素机：封面点阵与曲目信息两种显示状态"></p>
+<p align="center"><img src="docs/media/pixel.jpg" width="64%" alt="像素机：封面点阵与曲目信息两种显示状态"></p>
 
 ### 专辑墙
 
-<p align="center"><img src="docs/media/wall.png" width="96%" alt="按番剧堆叠的音乐收藏墙"></p>
+<p align="center"><img src="docs/media/wall.jpg" width="96%" alt="按番剧堆叠的音乐收藏墙"></p>
 
 <p align="center"><img src="docs/media/wall-burst.jpg" width="64%" alt="收藏墙交互：堆叠、扇开与水波纹展开的连续画面"></p>
 
-<details>
-<summary>点开看收藏墙的动态演示</summary>
-
-<p align="center"><img src="docs/media/wall.gif" width="88%" alt="专辑墙：扇开、水波纹展开、点开播放、返回"></p>
-
-</details>
+[点击查看收藏墙动态演示](docs/media/wall.gif)
 
 - 扫描任意层级的文件夹，番剧 CD 按作品自动归类、叠成一摞（本机番剧别名索引 + Wikipedia / 萌娘百科核对）。
 - 鼠标移上去整摞扇开；点一下，水波纹从中心扩散，扫过的地方逐渐模糊，唱片在作品名周围散开，37 张也能一次放下。
@@ -104,7 +99,7 @@ CD Nook 其实只是想解决一件很简单的事啦：
    ```
 3. 需要 macOS 26 和 Apple 芯片的 Mac。VLC 播放核心已经内置，不需要另外安装。
 
-<p align="center"><a href="../../releases"><img src="docs/media/github.png" width="56%" alt="CD Nook GitHub 获取海报：开源免费，macOS 26，Apple Silicon；点击前往 Releases"></a></p>
+<p align="center"><a href="../../releases"><img src="docs/media/github.jpg" width="56%" alt="CD Nook GitHub 获取海报：开源免费，macOS 26，Apple Silicon；点击前往 Releases"></a></p>
 
 ## 使用
 
